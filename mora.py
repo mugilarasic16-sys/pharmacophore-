@@ -7,7 +7,7 @@ import os
 import pandas as pd
 import streamlit as st
 from rdkit import Chem
-from rdkit.Chem import AllChem, ChemicalFeatures, Draw
+from rdkit.Chem import AllChem, ChemicalFeatures
 from rdkit.Chem import rdMolDescriptors
 from collections import Counter
 import plotly.express as px
